@@ -6,6 +6,7 @@ public class WeightedQuickUnion {
 
 	public WeightedQuickUnion(int n) {
 		numbers = new int[n];
+		sizes = new int[n];
 		for (int i = 0; i < numbers.length; i++) {
 			numbers[i] = i;
 			sizes[i] = 1;
