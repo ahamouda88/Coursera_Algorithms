@@ -1,5 +1,12 @@
 package unionfind.techniques;
 
+/**
+ * Eager Algorithm to solve the Dynamic connectivity problem.
+ * Takes O(1) to check if two numbers are connected.
+ * Takes O(n) to connect two numbers, so it will take O(n2) to connect n numbers.
+ * @author ahamouda
+ *
+ */
 public class QuickFindUF {
 
 	private int[] numbers;

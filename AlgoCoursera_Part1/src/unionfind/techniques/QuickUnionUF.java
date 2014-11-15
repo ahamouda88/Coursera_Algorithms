@@ -1,5 +1,13 @@
 package unionfind.techniques;
 
+/**
+ * Lazy approach to solve the Dynamic connectivity problem.
+ * Takes O(n) to check if two numbers are connected.
+ * Takes O(n) to connect two numbers. By using a tree approach, by assigning the root of one number to the other
+ * Defects: the tree can get tall, and the isConnected method is expensive.
+ * @author ahamouda
+ *
+ */
 public class QuickUnionUF {
 	private int[] numbers;
 
