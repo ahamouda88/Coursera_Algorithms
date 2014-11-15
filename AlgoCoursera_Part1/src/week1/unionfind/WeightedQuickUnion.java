@@ -1,4 +1,4 @@
-package unionfind.techniques;
+package week1.unionfind;
 
 public class WeightedQuickUnion {
 	private int[] numbers;

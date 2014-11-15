@@ -1,4 +1,4 @@
-package unionfind.techniques;
+package week1.unionfind;
 
 /**
  * Lazy approach to solve the Dynamic connectivity problem.

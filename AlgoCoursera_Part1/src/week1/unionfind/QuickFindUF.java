@@ -1,4 +1,4 @@
-package unionfind.techniques;
+package week1.unionfind;
 
 /**
  * Eager Algorithm to solve the Dynamic connectivity problem.
