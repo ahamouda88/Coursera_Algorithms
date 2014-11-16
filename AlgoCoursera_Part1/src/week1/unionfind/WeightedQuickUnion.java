@@ -20,13 +20,14 @@ public class WeightedQuickUnion {
 	public void union(int x, int y) {
 		int xId = getRoot(x);
 		int yId = getRoot(y);
-		if(sizes[xId] > sizes[yId]){
+		if(sizes[xId] >= sizes[yId]){
 			numbers[yId] = xId;
 			sizes[xId] += sizes[yId];
 		}else{
 			numbers[xId] = yId;
 			sizes[yId] += sizes[xId];
 		}
+		System.out.println("Connect "+x+" to "+y +".");
 	}
 
 	private int getRoot(int x) {
