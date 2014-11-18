@@ -1,5 +1,12 @@
 package week1.sumofthree;
 
+/**
+ * A brute-force technique to count the number of triples sum to exactly zero.
+ * This algorithm takes O(n3)
+ * 
+ * @author ahamouda
+ * 
+ */
 public class ThreeSum {
 
 	public static int count(int[] a) {
