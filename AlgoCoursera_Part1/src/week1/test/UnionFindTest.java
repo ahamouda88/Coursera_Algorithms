@@ -20,6 +20,8 @@ public class UnionFindTest {
 		wqu.union(6, 1);
 		System.out.println("Is 0 connected to 1: "+wqu.isConnected(0, 1));
 		System.out.println("Is 7 connected to 3: "+wqu.isConnected(7, 3));
+		wqu.union(7, 3);
+		System.out.println("Is 7 connected to 3: "+wqu.isConnected(7, 3));
 	}
 
 }
