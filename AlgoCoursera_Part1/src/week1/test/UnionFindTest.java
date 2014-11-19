@@ -17,6 +17,9 @@ public class UnionFindTest {
 		System.out.println("Is 0 connected to 1: "+wqu.isConnected(0, 1));
 		System.out.println("Is 7 connected to 3: "+wqu.isConnected(7, 3));
 		System.out.println("Is 4 connected to 8: "+wqu.isConnected(4, 8));
+		wqu.union(6, 1);
+		System.out.println("Is 0 connected to 1: "+wqu.isConnected(0, 1));
+		System.out.println("Is 7 connected to 3: "+wqu.isConnected(7, 3));
 	}
 
 }
