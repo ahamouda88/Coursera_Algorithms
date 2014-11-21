@@ -21,6 +21,9 @@ public class ArrayStack {
 		if(!isEmpty()){
 			result = values[--pointer];
 			values[pointer] = null;
+		}else{
+			// Exception should be thrown.
+			System.out.println("Can't pop from an empty stack");
 		}
 		return result;
 	}
@@ -33,6 +36,9 @@ public class ArrayStack {
 		}
 		if(pointer < size){
 			values[pointer++] = value;
+		}else{
+			// Exception should be thrown.
+			System.out.println("Maximum size of the stack is "+size);
 		}
 	}
 	
