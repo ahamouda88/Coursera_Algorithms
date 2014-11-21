@@ -26,6 +26,11 @@ public class ArrayStack {
 	}
 	
 	public void push(String value){
+		if(value == null){
+			// Exception should be thrown.
+			System.out.println("Value shouldn't be null");
+			return;
+		}
 		if(pointer < size){
 			values[pointer++] = value;
 		}
