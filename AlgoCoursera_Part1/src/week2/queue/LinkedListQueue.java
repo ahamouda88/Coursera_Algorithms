@@ -1,5 +1,11 @@
 package week2.queue;
 
+/**
+ * A queue of strings implemented using LinkedList.
+ * 
+ * @author ahamouda
+ * 
+ */
 public class LinkedListQueue {
 	private Node first;
 	private Node last;
