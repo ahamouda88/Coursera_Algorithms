@@ -1,5 +1,12 @@
 package week2.sorting;
 
+/**
+ * A class to sort an array of integers. Used selection sort as the sorting
+ * algorithm. Takes O(n2) to sort an array.
+ * 
+ * @author ahamouda
+ * 
+ */
 public class SelectionSort {
 
 	public static void sort(int[] a) {
