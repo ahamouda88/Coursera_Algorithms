@@ -11,13 +11,15 @@ package week2.sorting;
 public class InsertionSort {
 
 	public static void sort(int[] a){
-		int n = a.length;
-		for (int i = 0; i < n; i++) {
-			for (int j = i; j > 0 ; j--) {
-				if(a[j - 1] > a[j]){
-					swap(a, j - 1, j);
-				}else{
-					break;
+		if(a != null){
+			int n = a.length;
+			for (int i = 0; i < n; i++) {
+				for (int j = i; j > 0 ; j--) {
+					if(a[j - 1] > a[j]){
+						swap(a, j - 1, j);
+					}else{
+						break;
+					}
 				}
 			}
 		}
