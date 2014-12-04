@@ -1,5 +1,13 @@
 package week2.sorting;
 
+/**
+ * A class to sort an array of integers. Using Shell sort as the sorting
+ * algorithm. Takes O(n3/2) to sort an array.
+ * Insertion Sort takes about linear time to sort a partially sorted array!!.
+ * 
+ * @author ahamouda
+ * 
+ */
 public class ShellSort {
 	
 	public static void sort(int[] a){
