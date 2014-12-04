@@ -11,6 +11,9 @@ package week2.sorting;
 public class ShellSort {
 	
 	public static void sort(int[] a){
+		if(a == null){
+			return;
+		}
 		int n = a.length;
 		int h = 1;
 		
