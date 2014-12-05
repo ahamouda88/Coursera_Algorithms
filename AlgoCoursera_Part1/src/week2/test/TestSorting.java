@@ -2,8 +2,8 @@ package week2.test;
 
 import week2.sorting.InsertionSort;
 import week2.sorting.SelectionSort;
+import week2.sorting.ShellSort;
 import week2.sorting.ShuffleSort;
-
 
 public class TestSorting {
 
@@ -23,6 +23,11 @@ public class TestSorting {
 		System.out.print("Array after applying insertion sort: ");
 		printArray(a);
 	
+		// Shuffle the array.
+		ShuffleSort.shuffle(a);
+		ShellSort.sort(a);
+		System.out.print("Array after applying shell sort: ");
+		printArray(a);
 	}
 
 	private static void printArray(int[] a) {
