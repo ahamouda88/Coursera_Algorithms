@@ -12,11 +12,13 @@ import java.util.Random;
 public class ShuffleSort {
 	
 	public static void shuffle(int[] a) {
-		int n = a.length;
-		Random random = new Random();
-		for (int i = 0; i < n; i++) {
-			int r = random.nextInt(i + 1); 
-			swap(a, i, r);
+		if(a != null){
+			int n = a.length;
+			Random random = new Random();
+			for (int i = 0; i < n; i++) {
+				int r = random.nextInt(i + 1); 
+				swap(a, i, r);
+			}
 		}
 	}
 
