@@ -1,6 +1,8 @@
 package week2.test;
 
+import week2.sorting.InsertionSort;
 import week2.sorting.SelectionSort;
+import week2.sorting.ShuffleSort;
 
 
 public class TestSorting {
@@ -13,6 +15,14 @@ public class TestSorting {
 		SelectionSort.sort(a);
 		System.out.print("Array after applying selection sort: ");
 		printArray(a);
+		
+		// Shuffle the array.
+		ShuffleSort.shuffle(a);
+		printArray(a);
+		InsertionSort.sort(a);
+		System.out.print("Array after applying insertion sort: ");
+		printArray(a);
+	
 	}
 
 	private static void printArray(int[] a) {
